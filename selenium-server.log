@@ -1,0 +1,23 @@
+11:54:35.589 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+11:54:35.679 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-10-17 11:54:35.761:INFO::main: Logging initialized @438ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:54:36.118 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+11:54:36.871 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+11:54:37.453 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false
+  },
+  "name": "Food Network"
+}
+11:54:37.456 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 28115
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1571334882.237][WARNING]: Timed out connecting to Chrome, retrying...
+11:54:44.284 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+11:54:44.755 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session ea1fd121cfba4c24c0dabf137071c926 (org.openqa.selenium.chrome.ChromeDriverService)
+[1571334892.255][WARNING]: Timed out connecting to Chrome, retrying...
+[1571334896.256][WARNING]: Timed out connecting to Chrome, retrying...
+11:55:04.360 INFO [ActiveSessions$1.onStop] - Removing session ea1fd121cfba4c24c0dabf137071c926 (org.openqa.selenium.chrome.ChromeDriverService)
