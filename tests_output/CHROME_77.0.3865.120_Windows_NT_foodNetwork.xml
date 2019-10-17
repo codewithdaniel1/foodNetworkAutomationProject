@@ -5,17 +5,9 @@
 
   <testsuite name="foodNetwork"
     errors="0" failures="0" hostname="" id="" package="foodNetwork" skipped="0"
-    tests="1" time="44.78" timestamp="">
+    tests="1" time="21.69" timestamp="">
   
-    <testcase name="Get Dinner/Input Search/write file" classname="foodNetwork" time="44.78" assertions="4">
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Walmart Grocery" classname="foodNetwork" time="21.69" assertions="0">
     </testcase>
   
 

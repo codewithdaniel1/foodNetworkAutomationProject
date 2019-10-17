@@ -53,7 +53,8 @@ module.exports = {
         //Get Dinner/Input Search/Write File
         dinner: '[class="recipes_link"]',
         firstRes: { selector: '(//span[@class="m-MediaBlock__a-HeadlineText"])[1]', locateStrategy: 'xpath' },
-        ingredients: '[class="recipe-body"]',
+        ingredients: '[class="o-Ingredients"]',
+        directions: '[class="bodyRight"]',
 
     }
 }
