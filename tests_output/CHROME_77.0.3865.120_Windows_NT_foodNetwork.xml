@@ -5,9 +5,13 @@
 
   <testsuite name="foodNetwork"
     errors="0" failures="1" hostname="" id="" package="foodNetwork" skipped="0"
-    tests="1" time="19.57" timestamp="">
+    tests="1" time="46.31" timestamp="">
   
-    <testcase name="log in log out" classname="foodNetwork" time="19.57" assertions="1">  <failure message="Timed out while waiting for element &lt;[class=&#34;a-Icon a-Icon--menu o-HeaderFresh__a-Icon o-HeaderFresh__a-Icon--menu&#34;]&gt; to be present for 10000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.log in log out (C:\Users\benpe\DevMountain\foodNetworkAutomationProject\tests\foodNetwork.js:12:14)</failure>
+    <testcase name="log in log out" classname="foodNetwork" time="46.31" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;[class=&#34;gigya-input-text gigya-valid&#34;]&gt; to be present for 20000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.log in log out (C:\Users\benpe\DevMountain\foodNetworkAutomationProject\tests\foodNetwork.js:16:14)</failure>
 
     
     </testcase>

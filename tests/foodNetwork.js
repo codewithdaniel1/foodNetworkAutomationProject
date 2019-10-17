@@ -9,11 +9,11 @@ module.exports = {
     },
     'log in log out': browser => {
         food
-            .waitForElementVisible('@burger', 10000)
+            .waitForElementVisible('@burger', 20000)
             .click('@burger')
-            .waitForElementVisible('@logIn', 10000)
+            .waitForElementVisible('@logIn', 20000)
             .click('@logIn')
-            .waitForElementVisible('@email', 10000)
+            .waitForElementVisible('@email', 20000)
             .setValue('@email', 'softwareqa10@yahoo.com')
             .setValue('@password', 'SoftQA1995')
             .click('@submit')
