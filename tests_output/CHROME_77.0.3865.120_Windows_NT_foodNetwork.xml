@@ -1,13 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="4">
 
   <testsuite name="foodNetwork"
     errors="0" failures="0" hostname="" id="" package="foodNetwork" skipped="0"
-    tests="1" time="21.69" timestamp="">
+    tests="4" time="138.4" timestamp="">
   
-    <testcase name="Walmart Grocery" classname="foodNetwork" time="21.69" assertions="0">
+    <testcase name="log in log out" classname="foodNetwork" time="19.04" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Categories" classname="foodNetwork" time="86.60" assertions="24">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search Function" classname="foodNetwork" time="7.786" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Get Dinner/Input Search/write file" classname="foodNetwork" time="25.01" assertions="4">
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
 

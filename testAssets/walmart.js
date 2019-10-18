@@ -1,1 +1,0 @@
-4 tablespoons extra-virgin olive oil, plus more for drizzling,2 ciabatta rolls, cut into cubes (about 5 cups),1 clove garlic, finely chopped,Kosher salt and freshly ground pepper,1/2 cup sliced radishes,2 cups cherry tomatoes, halved,1/2 cup fresh basil leaves, chopped,2 tablespoons capers, plus 2 tablespoons brine from the jar,1 1/4 pounds skirt steak,6 cups baby arugula 
