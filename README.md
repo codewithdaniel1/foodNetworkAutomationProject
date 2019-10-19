@@ -57,8 +57,7 @@ Here is an example below: make sure the path will need to be your own path.
     module.exports = {
     resourcePath: "C:\\Users\\danielpeng95\\testing-resources\\",
     seleniumServer: "selenium-server-standalone-3.141.59.jar",
-    chromedriver: "chromedriver.exe"
- }
+    chromedriver: "chromedriver.exe"}
 
 
 Clone Repo and Run my program:
