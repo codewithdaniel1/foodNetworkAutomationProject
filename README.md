@@ -59,8 +59,15 @@ Here is an example below: make sure the path will need to be your own path.
     seleniumServer: "selenium-server-standalone-3.141.59.jar",
     chromedriver: "chromedriver.exe"}
 
+Items in your testing-resources folder:
+    
+    selenium-server-standalone-3.141.59.jar
+    chromedriver.exe
+    nightwatch.props.js
+    nightwatch.conf.js (will get once you clone my repo)
 
 Clone Repo and Run my program:
 
     1.) Clone from my repo and type "nightwatch" in the terminal
+    
 This will run all 3 PARTS of my Automation
