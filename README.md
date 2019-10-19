@@ -54,7 +54,7 @@ In your terminal:
 You need to create a file called: nightwatch.props.js in your testing-resources folder.
 Here is an example below: make sure the path will need to be your own path.
 
-module.exports = {
+    module.exports = {
     resourcePath: "C:\\Users\\danielpeng95\\testing-resources\\",
     seleniumServer: "selenium-server-standalone-3.141.59.jar",
     chromedriver: "chromedriver.exe"
@@ -62,5 +62,6 @@ module.exports = {
 
 
 Clone Repo and Run my program:
-Clone from my repo and type "nightwatch" in the terminal
+
+    1.) Clone from my repo and type "nightwatch" in the terminal
 This will run all 3 PARTS of my Automation
