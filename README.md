@@ -6,6 +6,7 @@ There are 3 PARTS to my Automation
 
 Part 1: foodNetwork.js
 This Is A Simple Automation
+
     1.) Navigate to Food Network Website
     2.) Logging in and Logging out
     3.) Checking the navigation/category bar at the top of the website
@@ -13,6 +14,7 @@ This Is A Simple Automation
     
 Part 2: foodNetworkGetDinner.js
 Harder Automation Technique
+
     0.) Continued from Part 1
     1.) Navigate to Food Network Website
     2.) Open up a new browser to a food generator website (this website picks a random food for you: e.g. Chicken Salad)
@@ -23,6 +25,7 @@ Harder Automation Technique
     
 Part 3: foodNetworkToImage.js
 Harder Automation Technique
+
     0.) Continued from Part 2
     1.) Converts the list of ingredients to an array list (.txt file to .js file)
     2.) Plugs each ingredients into Google Image Search Website
@@ -37,12 +40,14 @@ Here is how you can run my test!
 Make a folder called testing-resources first
 
 Download:
-1.) Selenium Server Standalone (put it in your testing-resources folder)
-2.) Chromedriver.exe (should be the current version) (put it in your testing-resources folder)
-3.) Node.js
+
+    1.) Selenium Server Standalone (put it in your testing-resources folder)
+    2.) Chromedriver.exe (should be the current version) (put it in your testing-resources folder)
+    3.) Node.js
 
 In your terminal:
-1.) type: npm i -g nightwatch (you have nightwatch installed now)
+
+    1.) type: npm i -g nightwatch (you have nightwatch installed now)
 
 
 
