@@ -43,6 +43,4 @@ module.exports = {
         //automate the search function and checking if the result is correct
         Food.searchVerify('@search', '@result', 'Chicken')
     },
-
-
 }

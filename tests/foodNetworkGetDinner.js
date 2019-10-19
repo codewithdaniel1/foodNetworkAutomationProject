@@ -30,7 +30,7 @@ module.exports = {
         })
 
         //getting dinner dish/option from a dinner generator website
-        Food.api.url('https://randomwordgenerator.com/dinner-ideas.php')
+        Food.api.url('https://www.getrandomthings.com/list-food.php')
 
         Food.waitForElementVisible('@dinner', 20000)
             .getText('@dinner', function (result) {
@@ -42,7 +42,6 @@ module.exports = {
         Food.api.windowHandles(function (result) {
             Food.api.switchWindow(originalWindow)
         })
-
 
         //searching for the dinner
         //getting back the dinner ingredients and directions
@@ -70,5 +69,4 @@ module.exports = {
                 fs.writeFileSync('./testAssets/directions.txt', dir)
             })
     },
-
 }

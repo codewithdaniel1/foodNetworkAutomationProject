@@ -1,5 +1,5 @@
 module.exports = {
-    url: 'https://grocery.walmart.com',
+    url: 'https://www.google.com/imghp?hl=en&tab=wi&ogbl',
     commands: [{
         clickVerify: function (selector, selector2, text) {
             this
@@ -34,23 +34,8 @@ module.exports = {
 
     }],
     elements: {
-
-        // //log in log out
-        // burger: '[class="a-Icon a-Icon--menu o-HeaderFresh__a-Icon o-HeaderFresh__a-Icon--menu"]',
-        // logIn: '[class="m-ProfileInfo__a-Button--Login"]',
-        // email: { selector: '(//input[@data-gigya-name="loginID"])[1]', locateStrategy: 'xpath' },
-        // password: { selector: '(//input[@data-gigya-name="password"])[1]', locateStrategy: 'xpath' },
-        // submit: { selector: '(//input[@class="gigya-input-submit"])[1]', locateStrategy: 'xpath' },
-        // nickName: '[class="m-ProfileInfo__a-Nickname"]',
-
-        search: '[class="Search__searchField___3eXaL"]',
-        noRes: '[data-automation-id="noResultsTitle"]',
-        add: { selector: '(//button[@class="AddToCart__buttonAddToCart___6kAog AddToCart__buttonAddToCartLarge___bK2YK grocery-btn"])[1]', locateStrategy: 'xpath' },
-
-        firstItem: { selector: '(//img[@class="productTile__productImage___2w76_"])[1]', locateStrategy: 'xpath' },
-        // add: {selector: '(//button[@class="AddToCart__buttonAddToCart___6kAog AddToCart__buttonAddToCartLarge___bK2YK grocery-btn"])[1]', locateStrategy: 'xpath'},
-
-
-
+        search: '[name="q"]',
+        firstRes: '[style="visibility: inherit;"]',
+        
     }
 }

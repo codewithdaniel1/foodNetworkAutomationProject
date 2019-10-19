@@ -51,8 +51,8 @@ module.exports = {
         result: '[class="siteSearchResults"]',
 
         //Get Dinner/Input Search/Write File
-        dinner: '[class="recipes_link"]',
-        firstRes: { selector: '(//span[@class="m-MediaBlock__a-HeadlineText"])[1]', locateStrategy: 'xpath' },
+        dinner: { selector: '(//div[@class="col-md-4 col-sm-6 col-xs-12 rh"])[1]', locateStrategy: 'xpath' }, //2nd browser
+        firstRes: { selector: '(//span[@class="m-MediaBlock__a-HeadlineText"])[1]', locateStrategy: 'xpath' }, //1st foodNetwork browser
         ingredients: '[class="o-Ingredients"]',
         directions: '[class="bodyRight"]',
 

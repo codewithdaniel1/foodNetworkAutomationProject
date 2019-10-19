@@ -1,1 +1,0 @@
-module.exports = ["3 strips bacon, roughly chopped","1 medium onion, diced","3 tablespoons flour","One 15-ounce can chicken broth","3 cups milk","3 ears white corn, kernels removed and cobs reserved","2 sprigs fresh thyme","2 1/2 cups shredded chicken from store-bought rotisserie chicken","Salt and freshly ground black pepper "]

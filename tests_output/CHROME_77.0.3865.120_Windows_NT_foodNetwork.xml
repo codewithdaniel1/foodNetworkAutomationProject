@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="3">
 
   <testsuite name="foodNetwork"
     errors="0" failures="0" hostname="" id="" package="foodNetwork" skipped="0"
-    tests="1" time="53.47" timestamp="">
+    tests="3" time="113.5" timestamp="">
   
-    <testcase name="Get Dinner/Input Search/write file" classname="foodNetwork" time="53.47" assertions="4">
+    <testcase name="log in log out" classname="foodNetwork" time="20.40" assertions="4">
 
     
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Categories" classname="foodNetwork" time="81.47" assertions="24">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search Function" classname="foodNetwork" time="11.67" assertions="3">
 
     
 
