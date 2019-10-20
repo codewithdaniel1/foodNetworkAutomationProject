@@ -5,9 +5,9 @@
 
   <testsuite name="foodNetwork"
     errors="0" failures="0" hostname="" id="" package="foodNetwork" skipped="0"
-    tests="3" time="113.5" timestamp="">
+    tests="3" time="221.4" timestamp="">
   
-    <testcase name="log in log out" classname="foodNetwork" time="20.40" assertions="4">
+    <testcase name="log in log out" classname="foodNetwork" time="27.28" assertions="4">
 
     
 
@@ -18,7 +18,7 @@
     
     </testcase>
   
-    <testcase name="Categories" classname="foodNetwork" time="81.47" assertions="24">
+    <testcase name="Categories" classname="foodNetwork" time="172.4" assertions="24">
 
     
 
@@ -69,7 +69,7 @@
     
     </testcase>
   
-    <testcase name="Search Function" classname="foodNetwork" time="11.67" assertions="3">
+    <testcase name="Search Function" classname="foodNetwork" time="21.76" assertions="3">
 
     
 
