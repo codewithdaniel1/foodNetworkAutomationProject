@@ -24,6 +24,7 @@ module.exports = {
         })
 
         Food.api.openNewWindow()
+        
         Food.api.windowHandles(function (result) {
             newWindow = result.value[1]
             Food.api.switchWindow(newWindow)
