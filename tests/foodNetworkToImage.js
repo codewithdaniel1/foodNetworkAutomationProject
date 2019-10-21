@@ -29,7 +29,7 @@ module.exports = {
         fs.writeFileSync('./testAssets/imageTestAsset.js', 'module.exports = ' + JSON.stringify(splitLine))
 
         var imageArray = require('../testAssets/imageTestAsset')
-        imageArray[1] = 'Food ' + imageArray[1]
+        imageArray[0] = 'Food ' + imageArray[0]
 
 
         image
