@@ -26,10 +26,11 @@ module.exports = {
         let newLine = line + ' '  //makes it a string
         let splitLine = newLine.split('\n')
         splitLine.shift()
-        splitLine.shift()
         fs.writeFileSync('./testAssets/imageTestAsset.js', 'module.exports = ' + JSON.stringify(splitLine))
 
         var imageArray = require('../testAssets/imageTestAsset')
+        imageArray[1] = 'Food ' + imageArray[1]
+
 
         image
             .perform(() => {
