@@ -23,8 +23,9 @@ module.exports = {
 
         //getting the ingredient list
         let line = fs.readFileSync("./testAssets/ingredients.txt")
-        let newLine = line + ' '
+        let newLine = line + ' '  //makes it a string
         let splitLine = newLine.split('\n')
+        splitLine.shift()
         splitLine.shift()
         fs.writeFileSync('./testAssets/imageTestAsset.js', 'module.exports = ' + JSON.stringify(splitLine))
 

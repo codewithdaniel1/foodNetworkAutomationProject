@@ -36,6 +36,6 @@ module.exports = {
     elements: {
         search: '[name="q"]',
         firstRes: '[style="visibility: inherit;"]',
-        
+
     }
 }

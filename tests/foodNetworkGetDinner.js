@@ -52,7 +52,7 @@ module.exports = {
             })
         Food
             .waitForElementVisible('@search')
-            .perform(() =>{
+            .perform(() => {
                 Food.setValue('@search', [dinnerDish, browser.Keys.ENTER])
             })
 

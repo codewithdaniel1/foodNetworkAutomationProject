@@ -11,8 +11,8 @@ module.exports = {
         Food.end()
     },
 
-    'log in log out': browser => {
-        //simple logging in and logging out automation
+    'log in': browser => {
+        //simple logging in automation
         Food
             .waitForElementVisible('@burger', 20000)
             .click('@burger')
@@ -25,7 +25,7 @@ module.exports = {
             .verify.containsText('@nickName', 'SOFTWAREQA')
     },
 
-    'Categories': browser => {
+    'Navigation Bar/Categories': browser => {
         //automate navigating through each categories on the top of the page
         //basically just checking if everything points to the correct direction
         //custom command called .clickVerify in the page object
