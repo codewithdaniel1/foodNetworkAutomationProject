@@ -1,43 +1,26 @@
-const properties = require('./nightwatch.props')
+const chrome = require("chromedriver")
 module.exports = {
-  "src_folders": ["./tests"],
-  "page_objects_path": "pageObjects",
-  "selenium": {
-    "start_process": true,
-    "server_path": properties.resourcePath + properties.seleniumServer,
-    "log_path": "",
-    "port": 4444,
-    "cli_args": {
-      "webdriver.chrome.driver": properties.resourcePath + properties.chromedriver,
-    }
-  },
-  "test_settings": {
-    "default": {
-      "launch_url": "http://localhost",
-      "selenium_port": 4444,
-      "selenium_host": "localhost",
-      "silent": true,
-      "screenshots": {
-        "enabled": false,
-        "path": ""
-      },
-      "desiredCapabilities": {
-        "browserName": "chrome",
-        "chromeOptions": {
-          "w3c": false
+    "src_folders": "tests",
+    "page_objects_path": "pageObjects",
+
+
+    "webdriver": {
+        "start_process": true,
+        "server_path": chrome.path,
+        "cli_args": [
+            // "--verbose"
+        ],
+        "port": 9515
+    },
+
+    "test_settings": {
+        "default": {
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "chromeOptions": {
+                    "w3c": false
+                }
+            }
         }
-      }
-    },
-    "firefox": {
-      "desiredCapabilities": {
-        "browserName": "firefox",
-        "marionette": true
-      }
-    },
-    "edge": {
-      "desiredCapabilities": {
-        "browserName": "MicrosoftEdge"
-      }
     }
-  }
 }

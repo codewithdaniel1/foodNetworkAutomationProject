@@ -31,13 +31,13 @@ module.exports = {
         var imageArray = require('../testAssets/imageTestAsset')
         imageArray[0] = 'Food ' + imageArray[0]
 
+        console.log("there are " + imageArray.length + " ingredients!") //number of items on the ingredient list
+        console.log("incredients below:")
 
         image
             .perform(() => {
                 console.log(imageArray)
             })
-
-        console.log(imageArray.length) //number of items on the ingredient list
 
         //searching for the name of the main food and its image
         let dinnerDish = ""

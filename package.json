@@ -1,0 +1,27 @@
+{
+  "name": "foodNetworkAutomationProject",
+  "version": "1.0.0",
+  "description": "This is a QA Automation project with JavaScript/Selenium Webdriver/Nightwatch.js/Node.js",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpeng95/foodNetworkAutomationProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpeng95/foodNetworkAutomationProject/issues"
+  },
+  "homepage": "https://github.com/danielpeng95/foodNetworkAutomationProject#readme",
+  "dependencies": {
+    "chromedriver": "^77.0.0",
+    "nightwatch": "^1.2.4"
+  }
+}
