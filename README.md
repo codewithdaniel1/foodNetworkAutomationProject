@@ -39,7 +39,7 @@ Here is how you can run my test locally:
 
 clone my repo
 
-    git clone 
+    git clone https://github.com/danielpeng95/foodNetworkAutomationProject.git
     
 In your terminal type
 
