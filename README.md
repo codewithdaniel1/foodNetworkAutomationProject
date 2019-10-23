@@ -35,8 +35,24 @@ Harder Automation Technique
     
     
 
-Here is how you can run my test!
+Here is how you can run my test locally:
 
+clone my repo
+
+    git clone 
+    
+In your terminal type
+
+    npm i
+    npm run test
+    
+    
+    
+    
+    
+
+    
+Here is how you can run my test globally:
 Make a folder called testing-resources first
 
 Download:
