@@ -46,6 +46,7 @@ In your terminal type:
     npm i
 
 And
+
     npm run test
     
 This will run all 3 PARTS of my Automation!
