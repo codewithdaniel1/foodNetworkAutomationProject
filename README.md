@@ -44,6 +44,9 @@ Clone my repo:
 In your terminal type:
 
     npm i
+
+Then, in your terminal type:
+
     npm run test
     
 This will run all 3 PARTS of my Automation!
