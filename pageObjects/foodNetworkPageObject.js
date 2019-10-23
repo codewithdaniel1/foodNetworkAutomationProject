@@ -39,7 +39,6 @@ module.exports = {
         body2: '[class="container-site "]',
         recipes: { selector: '(//a[@href="//www.foodnetwork.com/recipes"])[1]', locateStrategy: 'xpath' },
         healthy: { selector: '(//a[@href="//www.foodnetwork.com/healthy"])[1]', locateStrategy: 'xpath' },
-        party: { selector: '(//a[@href="//www.foodnetwork.com/holidays-and-parties"])[1]', locateStrategy: 'xpath' },
         halloween: { selector: '(//a[@href="//www.foodnetwork.com/holidays-and-parties/packages/halloween"])[1]', locateStrategy: 'xpath' },
         shop: { selector: '(//a[@href="//www.foodnetwork.com/how-to/packages/shopping"])[1]', locateStrategy: 'xpath' },
         shows: { selector: '(//a[@href="//www.foodnetwork.com/shows"])[1]', locateStrategy: 'xpath' },
