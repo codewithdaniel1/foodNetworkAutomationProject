@@ -37,13 +37,13 @@ Harder Automation Technique
 
 Here is how you can run my test locally:
 
-clone my repo
+Clone my repo:
 
     git clone https://github.com/danielpeng95/foodNetworkAutomationProject.git
     
-In your terminal type
+In your terminal type:
 
     npm i
     npm run test
     
-This will run all 3 PARTS of my Automation
+This will run all 3 PARTS of my Automation!
