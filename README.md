@@ -29,8 +29,8 @@ Harder Automation Technique
     0.) Continued from Part 2
     1.) Converts the list of ingredients to an array list (.txt file to .js file)
     2.) Plugs each ingredients into Google Image Search Website
-    3.) Takes a Screen shot of each ingredients
-    4.) Now you have all the pictures of the ingredients and the direction on how to make the food
+    3.) Takes a Screen shot of each ingredients (This will be in the screenShots folder)
+    4.) Now you have all the pictures of the ingredients and the direction on how to make the food (All in the testAssets folder)
     
     
     
