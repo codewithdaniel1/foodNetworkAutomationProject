@@ -8,7 +8,7 @@ Part 1: foodNetwork.js
 This Is A Simple Automation
 
     1.) Navigate to Food Network Website
-    2.) Logging in and Logging out
+    2.) Logging into the website and check that it's logged in
     3.) Checking the navigation/category bar at the top of the website
     4.) Going through the Search Bar Function to see if it works
     
