@@ -8,7 +8,7 @@ Part 1: foodNetwork.js
 This Is A Simple Automation
 
     1.) Navigate to Food Network Website
-    2.) Logging in and Logging out
+    2.) Logging into the website and check that it's logged in
     3.) Checking the navigation/category bar at the top of the website
     4.) Going through the Search Bar Function to see if it works
     
@@ -27,9 +27,9 @@ Part 3: foodNetworkToImage.js
 Harder Automation Technique
 
     0.) Continued from Part 2
-    1.) Converts the list of ingredients to an array list (.txt file to .js file)
+    1.) Converts the list of ingredients to an arraylist (.txt file to .js file)
     2.) Plugs each ingredients into Google Image Search Website
-    3.) Takes a Screen shot of each ingredients (This will be in the screenShots folder)
+    3.) Takes a Screenshot of each ingredients (This will be in the screenShots folder)
     4.) Now you have all the pictures of the ingredients and the direction on how to make the food (All in the testAssets folder)
     
     
