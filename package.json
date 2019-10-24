@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch"
+    "test": "npx nightwatch"
   },
   "repository": {
     "type": "git",
