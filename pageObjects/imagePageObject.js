@@ -23,12 +23,9 @@ module.exports = {
         },
         clearSet: function (selector, text) {
             this
-                .api.pause(2000)
-            this
                 .waitForElementVisible(selector, 2000)
                 .clearValue(selector)
                 .setValue(selector, [text, this.api.Keys.ENTER])
-                .api.pause(2000)
             return this
         }
 

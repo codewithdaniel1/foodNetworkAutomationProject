@@ -24,7 +24,7 @@ module.exports = {
         })
 
         Food.api.openNewWindow()
-        
+
         Food.api.windowHandles(function (result) {
             newWindow = result.value[1]
             Food.api.switchWindow(newWindow)
@@ -37,7 +37,7 @@ module.exports = {
             .getText('@dinner', function (result) {
                 dinner = result.value
                 console.log(dinner)
-                fs.writeFileSync('./testAssets/dinnerDish.txt', `${dinner}`)
+                fs.writeFileSync('./testAssets/dinnerDish.txt', dinner)
             })
 
         Food.api.windowHandles(function (result) {

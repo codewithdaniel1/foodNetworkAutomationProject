@@ -22,6 +22,7 @@ module.exports = {
             .setValue('@email', 'softwareqa10@yahoo.com')
             .setValue('@password', 'SoftQA1995')
             .click('@submit')
+            .waitForElementVisible('@nickName')
             .verify.containsText('@nickName', 'SOFTWAREQA')
     },
 
