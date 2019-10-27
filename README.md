@@ -43,9 +43,9 @@ Clone my repo:
     
 In your terminal type:
 
-    npm i
+    cd foodNetworkAutomationProject
 
-And
+    npm i
 
     npm run test
     
