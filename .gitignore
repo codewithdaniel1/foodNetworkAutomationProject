@@ -1,7 +1,6 @@
 /tests_output
 *log
 nightwatch.props.js
-package-lock.json
 nightwatch.OLDconf.js
 /node_modules
 /screenShots/*.png

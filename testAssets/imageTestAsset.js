@@ -1,1 +1,1 @@
-module.exports = ["3/4 cup all-purpose flour","1/2 teaspoon salt","3 eggs","3/4 cup milk","1/2 cup pan drippings from roast prime rib of beef "]
+module.exports = ["Neutral oil, such as canola or vegetable","3/4 cup diced bacon or ham ","3/4 cup diced white onion ","2 cloves garlic, minced ","1/4 cup diced carrots ","1/4 cup snap peas, sliced, or other seasonal vegetables ","2 eggs, whisked ","4 cups cooked rice ","2 tablespoons soy sauce ","2 tablespoons oyster sauce ","Kosher salt ","2 green onions, chopped ","Freshly ground white pepper "]

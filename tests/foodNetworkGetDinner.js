@@ -14,35 +14,35 @@ module.exports = {
     },
 
     'Get Dinner/Input Search/write file': browser => {
-        //automate with new window browsers and window handles
-        //utilized .getText and write files 
-        var originalWindow = ""
-        var newWindow = ""
+        // //automate with new window browsers and window handles
+        // //utilized .getText and write files 
+        // var originalWindow = ""
+        // var newWindow = ""
 
-        Food.api.windowHandles(function (result) {
-            originalWindow = result.value[0]
-        })
+        // Food.api.windowHandles(function (result) {
+        //     originalWindow = result.value[0]
+        // })
 
-        Food.api.openNewWindow()
+        // Food.api.openNewWindow()
 
-        Food.api.windowHandles(function (result) {
-            newWindow = result.value[1]
-            Food.api.switchWindow(newWindow)
-        })
+        // Food.api.windowHandles(function (result) {
+        //     newWindow = result.value[1]
+        //     Food.api.switchWindow(newWindow)
+        // })
 
-        //getting dinner dish/option from a dinner generator website
-        Food.api.url('https://www.getrandomthings.com/list-food.php')
+        // //getting dinner dish/option from a dinner generator website
+        // Food.api.url('https://www.getrandomthings.com/list-food.php')
 
-        Food.waitForElementVisible('@dinner', 20000)
-            .getText('@dinner', function (result) {
-                dinner = result.value
-                console.log(dinner)
-                fs.writeFileSync('./testAssets/dinnerDish.txt', dinner)
-            })
+        // Food.waitForElementVisible('@dinner', 20000)
+        //     .getText('@dinner', function (result) {
+        //         dinner = result.value
+        //         console.log(dinner)
+        //         fs.writeFileSync('./testAssets/dinnerDish.txt', dinner)
+        //     })
 
-        Food.api.windowHandles(function (result) {
-            Food.api.switchWindow(originalWindow)
-        })
+        // Food.api.windowHandles(function (result) {
+        //     Food.api.switchWindow(originalWindow)
+        // })
 
 
 
@@ -59,7 +59,6 @@ module.exports = {
             .perform(() => {
                 Food.setValue('@search', [dinnerDish, browser.Keys.ENTER])
             })
-
         Food
             .waitForElementVisible('@firstRes', 20000)
             .click('@firstRes')
