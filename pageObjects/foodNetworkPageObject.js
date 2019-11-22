@@ -21,7 +21,6 @@ module.exports = {
             this.api.execute(`window.scrollBy(0, ${pixels})`)
             return this
         },
-
     }],
     elements: {
 
