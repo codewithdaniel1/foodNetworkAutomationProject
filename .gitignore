@@ -4,5 +4,3 @@ nightwatch.props.js
 nightwatch.OLDconf.js
 /node_modules
 /screenShots/*.png
-aPowerPoint.js
-powerPointPageObject.js
