@@ -32,10 +32,10 @@ module.exports = {
         //custom command called .clickVerify in the page object
         Food.clickVerify('@recipes', '@header', 'Recipes')
         Food.clickVerify('@healthy', '@header', 'Healthy')
-        Food.clickVerify('@halloween', '@body', 'Halloween')
+        // Food.clickVerify('@halloween', '@body', 'Halloween')
         Food.clickVerify('@shop', '@body', 'SHOP')
         Food.clickVerify('@shows', '@header', 'Shows')
-        Food.clickVerify('@baking', '@body2', 'Baking')
+        // Food.clickVerify('@baking', '@body2', 'Baking')
         Food.clickVerify('@schedule', '@header', 'Schedule')
     },
 
