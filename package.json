@@ -22,6 +22,6 @@
   "homepage": "https://github.com/danielpeng95/foodNetworkAutomationProject#readme",
   "dependencies": {
     "chromedriver": "^77.0.0",
-    "nightwatch": "^1.2.4"
+    "nightwatch": "^1.7.13"
   }
 }
